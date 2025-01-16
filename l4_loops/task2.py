@@ -10,8 +10,8 @@ def odd_str(n: int) -> str:
     # (0, 1, 2, 3, 4, 5, 6) -> "135" 
 
     for i in range(n + 1):
-        if i % 2 != 0:  # Check if the number is odd
-            s += str(i)  # Append the odd number to the string
+        if i % 2 != 0:
+            s += str(i)
     print(s)
     return s
 
